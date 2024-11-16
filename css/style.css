@@ -1,0 +1,43 @@
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 16pt;
+    width: 90%;
+    max-width: 720px;
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+    color: #666;
+}
+
+b {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+a:hover {
+    color: #3B73B4;
+}
+
+.icon {
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-position: 0 0;
+}
+
+.icon:hover {
+    background-position: 0 -100%;
+}
+
+#linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
+#email {
+    background-image: url(../images/email.png);
+}
